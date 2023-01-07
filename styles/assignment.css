@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    font-family: 'Work Sans';
+}
+
+.header {
+    background-image: url(/images/banner/banner2.png);
+    width: 1600px;
+    height: 809px;
+    text-align: right;
+
+}
+
+.header-title {
+    color: hsl(0, 4%, 10%);
+
+    font-weight: 650;
+    font-size: 60px;
+    margin-right: 230px;
+    margin-left: 865px;
+    padding-top: 220px;
+}
+
+.header-description {
+
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 24px;
+    margin-right: 230px;
+    margin-left: 860px;
+
+
+}
+
+.btn-p1 {
+    height: 64px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    margin-top: 32px;
+    margin-right: 230px;
+    margin-left: 860px;
+
+}
