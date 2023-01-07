@@ -2,7 +2,7 @@
     margin: 0px;
     font-family: 'Work Sans';
 }
-
+ /* banner styles */
 .header {
     background-image: url(/images/banner/banner2.png);
     width: 1600px;
@@ -46,4 +46,44 @@
     margin-right: 230px;
     margin-left: 860px;
 
+}
+
+/* section one styles */
+.s-one{
+    width: 1080px;
+    height: 735px;
+    margin-top: 140px;
+    background-color: #FFFFFF;
+}
+.s-one-des{
+display: flex;
+}
+img{
+margin-left: 230px;
+}
+.description{
+padding-left: 90px;
+margin-top: 210px;
+}
+.h-des{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    width: 288px;
+    height: 94px;
+}
+.p-des{
+    font-size: 16px;
+    /* line-height: 26px; */
+    color: #444343;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+li{
+    list-style: none;
+}
+li:before{
+    content:'\2713' ;
+    color: green;
 }
